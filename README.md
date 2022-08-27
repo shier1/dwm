@@ -1,1 +1,1 @@
-# dwm
+# my dwm settings
