@@ -62,11 +62,11 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-static const char *voldown[]  = { "/home/shier/Downloads/dwm/voldown.sh", NULL };
-static const char *volup[]  = { "/home/shier/Downloads/dwm/volup.sh", NULL };
-static const char *voltoggle[]  = { "/home/shier/Downloads/dwm/voltoggle.sh", NULL };
-static const char *lightdown[]  = { "/home/shier/Downloads/dwm/lightdown.sh", NULL };
-static const char *lightup[]  = { "/home/shier/Downloads/dwm/lightup.sh", NULL };
+static const char *voldown[]  = { "/home/shier/Downloads/dwm/script/voldown.sh", NULL };
+static const char *volup[]  = { "/home/shier/Downloads/dwm/script/volup.sh", NULL };
+static const char *voltoggle[]  = { "/home/shier/Downloads/dwm/script/voltoggle.sh", NULL };
+static const char *lightdown[]  = { "/home/shier/Downloads/dwm/script/lightdown.sh", NULL };
+static const char *lightup[]  = { "/home/shier/Downloads/dwm/script/lightup.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
